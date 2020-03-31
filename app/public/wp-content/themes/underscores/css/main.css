@@ -1,0 +1,139 @@
+/* Reset the margins to 0 */
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.site-content {
+  height: 100vh;
+}
+
+/* Change the a styling */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:visited {
+  color: burlywood;
+}
+
+/* Remove post navigation */
+.post-navigation {
+  display: none;
+}
+
+/* Center header text */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Style Paragraph Text */
+p {
+  margin: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Center posted date */
+.entry-meta {
+  text-align: center;
+}
+
+/* Center entry header */
+.entry-title {
+  text-align: center;
+}
+
+/* Center Home Page Practice Areas */
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  list-style: none;
+  display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 2rem;
+
+  padding: 0;
+  margin: 0;
+}
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Reduce white space for content area */
+.wp-block-columns {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+/* Navigation Styling */
+.main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #333;
+}
+
+.main-navigation a {
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.main-navigation a:hover {
+  color: yellow;
+}
+
+.main-navigation a:visited {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Show current page styling */
+/* Highlight using list element */
+li.current_page_item {
+  background: #494949;
+}
+
+/* Styling to center images */
+.entry-content {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  background-color: lightslategray;
+
+  height: 2rem;
+}
+
+footer a {
+  color: burlywood;
+  text-align: center;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+.entry-footer {
+  display: none;
+}
