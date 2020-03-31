@@ -1,4 +1,6 @@
-# wordpress-assignment
+# wordpress-assignment  
+https://cglawcalgary.cloudaccess.host/  
+
 Sources:  
 https://pixabay.com/photos/people-portrait-man-male-smile-1690965/  
   
